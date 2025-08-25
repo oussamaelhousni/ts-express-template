@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src", // root of your source code
+    "paths": {
+      "@/*": ["./*"] // maps "@/..." to "src/..."
+    },
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "target": "ESNext",
+    "outDir": "dist"
+  },
+  "include": ["src"]
+}
